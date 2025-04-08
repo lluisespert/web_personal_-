@@ -12,7 +12,8 @@ export const Home = () => {
                 <div className="col-xxl-4"></div>
 
                 <div className="col-xxl-4">
-
+                    <br></br>
+                    <br></br>   
                     <h1 className="EfectoRelieve">Bienvenidos a mi espacio web</h1>
                     <br></br>
                     <br></br>

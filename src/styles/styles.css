@@ -308,3 +308,40 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+.custom-navbar {
+  position: fixed; /* Fija el navbar en la parte superior */
+  top: 0; /* Asegura que esté en la parte superior */
+  left: 50%; /* Posiciona el navbar horizontalmente en el centro */
+  transform: translateX(-50%); /* Ajusta el centro horizontal */
+  width: auto; /* Ajusta el ancho según el contenido */
+  z-index: 1050; /* Asegura que esté por encima del contenido */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra para destacar */
+}
+
+.navbar-nav {
+  gap: 15px; /* Espaciado entre los elementos del menú */
+}
+
+.nav-link {
+  color: white; /* Color inicial del texto */
+  transition: color 0.3s ease; /* Transición suave al cambiar el color */
+}
+
+.nav-link:hover {
+  color: orange; /* Cambia el color a naranja al pasar el ratón */
+}
+
+.container2 {
+  display: flex;
+  justify-content: center; /* Centra las cards horizontalmente */
+  align-items: center; /* Centra las cards verticalmente */
+  flex-wrap: nowrap; /* Evita que las cards se ajusten en varias filas */
+  min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+  gap: 10px; /* Añade una separación uniforme entre las cards */
+  overflow-x: auto; /* Permite desplazamiento horizontal si las cards no caben */
+}
+
+.row {
+  width: 100%; /* Asegura que las cards no se desborden */
+}

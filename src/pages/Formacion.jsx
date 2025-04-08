@@ -6,8 +6,7 @@ export const Formacion = () => {
 
     return(
 
-        <div className="d-flex d-flex justify-content-center text-center">
-
+        <div className="d-flex d-flex justify-content-center text-center mt-5">
             <div className="card ms-3 mt-5">
 
                 <div className="card-header">
